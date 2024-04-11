@@ -45,11 +45,5 @@ public abstract class Empleado {
         this.trabajando = trabajando;
     }
 
-    public void turno(){
-        if (trabajando == true) {
-            System.out.println("En turno de trabajo.");
-        } else {
-            System.out.println("En turno de descanso.");
-        }
-    }
+    public abstract void turno();
 }

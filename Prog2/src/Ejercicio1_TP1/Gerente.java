@@ -17,6 +17,12 @@ public class Gerente extends Empleado{
         System.out.println("Organizando Actividades para el departamento de "+departamento+".");
     }
 
-
-
+    @Override
+    public void turno() {
+        if (trabajando == true){
+            System.out.println("En turno de trabajo.");
+        }else {
+            System.out.println("En turno de descanso.");
+        }
+    }
 }

@@ -10,4 +10,13 @@ public class Trabajador extends Empleado{
     public void producir(){
         System.out.println("Trabajador en produccion para el area de "+ area+".");
     }
+
+    @Override
+    public void turno() {
+        if (trabajando == true){
+            System.out.println("En turno de trabajo.");
+        }else {
+            System.out.println("En turno de descanso.");
+        }
+    }
 }
