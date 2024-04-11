@@ -28,7 +28,7 @@ public class Rectangle extends GeometricFigure{
     }
 
     @Override
-    public double perimetro() {
+    public double perimeter() {
         return 2 * (heigth+width);
     }
 }

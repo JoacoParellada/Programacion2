@@ -20,7 +20,7 @@ public class Circle extends GeometricFigure{
     }
 
     @Override
-    public double perimetro() {
+    public double perimeter() {
         return Math.PI * 2 * radius;
     }
 }
